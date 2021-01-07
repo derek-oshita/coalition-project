@@ -8,6 +8,7 @@ UNIVERSAL
     /* box-sizing: border-box; */
 }
 
+
 /************************************************************************************** 
 MAIN PAGE
 */
@@ -226,7 +227,7 @@ CLIMB
 
 .climb-header {
     width: 100vw; 
-    height: 25vh; 
+    height: 20vh; 
     background-color: white; 
     display: flex; 
     justify-content: center;
@@ -235,7 +236,7 @@ CLIMB
 
 .climb-table {
     width: 80vw; 
-    height: 25vh; 
+    height: 20vh; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,18 +246,24 @@ CLIMB
     display: flex; 
     justify-content: center;
     align-items: center;
-    height: 25vh; 
+    height: 20vh; 
     margin: 0; 
 }
 
 
 #number2 {
     font-size: 11vw; 
-    color: rgba(34, 68, 112, .8); 
+    color: #A1A4AB
+}
+
+#square2 {
+    background-color: #A1A4AB; 
+    height: 15px;  
+    width: 15px; 
 }
 
 .climb-text {
-    padding-top: 8vh; 
+    padding-top: 10vh; 
     line-height: 25%; 
 }
 
@@ -265,7 +272,7 @@ CLIMB
 }
 
 .right-half {
-    height: 25vh;
+    height: 20vh;
     width: 45vw; 
 }
 
@@ -274,7 +281,93 @@ CLIMB
 }
 
 .right-half p {
-    padding-top: 8vh; 
+    padding-top: 6vh; 
 }
+
+.line {
+    height: 8vh; 
+    width: 100vw; 
+    background-color: rgb(34, 68, 112);
+    display: flex; 
+}
+
+.tab {
+    height: 8vh; 
+    width: 10vw; 
+}
+
+.tab p {
+    padding-left: 20px; 
+    padding-top: 18px; 
+    font-size: 15px; 
+}
+
+.mountain1 {
+    background-color: #A1A4AB; 
+    margin-left: 15vw;
+}
+
+.mountain1 p {
+    color: rgb(34, 68, 112);
+    text-decoration: underline; 
+}
+
+.mountain2 p {
+    color: #A1A4AB; 
+}
+
+.schedule-container {
+    margin-left: 16vw; 
+    margin-top: 12vh; 
+    height: 30vh; 
+    width: 30vw; 
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.schedule-section {
+    width: 30vw; 
+    padding-left: 2vw; 
+}
+
+.schedule-section p {
+    color: rgb(34, 68, 112);
+    font-size: 25px; 
+    padding-top: 2vh; 
+}
+
+.schedule-table {
+    display: flex; 
+    width: 30vw; 
+    line-height: 80%; 
+}
+
+.dates {
+    width: 15vw; 
+}
+
+.dates p {
+    padding-left: 2vw; 
+}
+
+.description {
+    width: 15vw; 
+}
+
+footer {
+    width: 100vw; 
+    height: 7vh; 
+    background-color: rgb(34, 68, 112);
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright p {
+    margin-right: 15vw;
+    padding-top: 10px;  
+}
+
+
+
 
 
