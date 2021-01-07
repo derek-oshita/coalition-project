@@ -1,3 +1,88 @@
+/************************************************************************************** 
+UNIVERSAL
+*/
+
 * {
-    background-color: blue;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
 }
+
+/************************************************************************************** 
+MAIN PAGE
+*/
+
+main {
+    background-image: url('./images/snowy_mountain_hero.jpg'); 
+    height: 100vh; 
+    width: 100vw; 
+}
+
+#main-section {
+    /* used a random photo because brackets.io no longer offers the extract tool for free and I don't own photoshop */
+    /* background-image: url('./images/snowy_mountain_hero.jpg');  */
+    height: 90vh; 
+    width: 100vw; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav {
+    width: 100vw; 
+    height: 10vh; 
+    /* background-color: black;  */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 250px; 
+}
+
+.links {
+    display: flex; 
+    justify-content: flex-end; 
+    margin-right: 250px; 
+}
+
+.links a {
+    color: white; 
+    font-style: italic;
+}
+
+.team {
+    margin-left: 45px; 
+}
+
+#header-div {
+    height: 40vh; 
+    width: 50vw; 
+    /* background-color: black;  */
+    text-align: center; 
+    display: block; 
+    line-height: 385%;
+}
+
+#header-div p {
+    display: block; 
+    /* color: white;  */
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-size: 6vw;  */
+    margin: 0; 
+    padding: 0; 
+}
+
+.la {
+    color: #36454F; 
+    font-size: 85px; 
+}
+
+.mountains {
+    color: white; 
+    font-size: 91px; 
+}
+
+
+
