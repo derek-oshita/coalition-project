@@ -26,6 +26,7 @@ main {
     display: flex; 
     justify-content: center;
     align-items: center;
+    margin-right: 10vw; 
 }
 
 .main-nav {
@@ -39,6 +40,8 @@ main {
 
 .icon {
     margin-left: 250px; 
+    height: 6vh; 
+    width: 3vw; 
 }
 
 .links {
