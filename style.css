@@ -13,14 +13,13 @@ MAIN PAGE
 */
 
 main {
+    /* used a random photo because brackets.io no longer offers the extract tool for free and I don't own photoshop */
     background-image: url('./images/snowy_mountain_hero.jpg'); 
     height: 100vh; 
     width: 100vw; 
 }
 
 #main-section {
-    /* used a random photo because brackets.io no longer offers the extract tool for free and I don't own photoshop */
-    /* background-image: url('./images/snowy_mountain_hero.jpg');  */
     height: 90vh; 
     width: 100vw; 
     display: flex; 
@@ -32,7 +31,6 @@ main {
 .main-nav {
     width: 100vw; 
     height: 10vh; 
-    /* background-color: black;  */
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -70,9 +68,7 @@ main {
 
 #header-div p {
     display: block; 
-    /* color: white;  */
     font-family: 'Source Sans Pro', sans-serif;
-    /* font-size: 6vw;  */
     margin: 0; 
     padding: 0; 
 }
@@ -92,7 +88,7 @@ HISTORY PAGE
 */
 
 .history-section {
-    background-image: url('./images/snowy-mountain1.jpeg'); 
+    background-image: url('./images/snowy-mountain2.jpg'); 
     height: 100vh; 
     width: 100vw; 
 }
@@ -100,6 +96,10 @@ HISTORY PAGE
 .nav-header {
     font-size: 20px; 
     color: #36454F; 
+}
+
+.history-nav {
+    background-color: white;
 }
 
 .logo {
@@ -118,4 +118,87 @@ HISTORY PAGE
     color: #36454F; 
 }
 
+.history-container {
+    display: flex; 
+    justify-content: center;
+    height: 45vh;
+}
 
+.history-article {
+    /* background-color: white;  */
+    height: 35vh; 
+    width: 70vw; 
+}
+
+.top-half {
+    display: flex; 
+    height: 23vh; 
+}
+
+.bottom-half {
+    display: flex; 
+    justify-content: center;
+}
+
+.text-container {
+    width: 58vw; 
+}
+
+
+#number {
+    font-size: 12vw; 
+}
+
+#square {
+    background-color: #36454F; ;
+    height: 15px;  
+    width: 15px; 
+}
+
+.history-text {
+    padding-top: 17.5vh; 
+    line-height: 25%; 
+}
+
+#history-text {
+    font-size: 2vw; 
+}
+
+
+/************************************************************************************** 
+CAROUSEL
+*/
+
+
+.carousel-container {
+    height: 30vh; 
+    width: 100vw; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 25vh; 
+    background-color: pink; 
+}
+
+/* .carousel-img */
+
+.carousel-div {
+    height: 30vh; 
+    width: 95vw; 
+}
+
+/* .carousel-img {
+    max-height: 10vh; 
+    max-width: 15vw; 
+} */
+
+.carousel-img {
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:360px;
+}
+
+.carousel-item-name {
+    font-size: 32px; 
+}
