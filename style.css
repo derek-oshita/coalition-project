@@ -210,3 +210,71 @@ CAROUSEL
       left: 0;
       min-height: 300px;
   } */
+
+
+/************************************************************************************** 
+CLIMB
+*/
+
+.climb-section {
+    background-image: url('./images/snowy-mountain5.jpg'); 
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.climb-header {
+    width: 100vw; 
+    height: 25vh; 
+    background-color: white; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.climb-table {
+    width: 80vw; 
+    height: 25vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-half {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 25vh; 
+    margin: 0; 
+}
+
+
+#number2 {
+    font-size: 11vw; 
+    color: rgba(34, 68, 112, .8); 
+}
+
+.climb-text {
+    padding-top: 8vh; 
+    line-height: 25%; 
+}
+
+#climb-text {
+    font-size: 2vw; 
+}
+
+.right-half {
+    height: 25vh;
+    width: 45vw; 
+}
+
+.divider {
+    width: 5vw; 
+}
+
+.right-half p {
+    padding-top: 8vh; 
+}
+
+
